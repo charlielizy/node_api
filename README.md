@@ -34,7 +34,7 @@ The app is structured in the following folder format:
         |- routes
       |- docs
         |- apis
-	|- app
+        |- app
       |- gulpfile.js
       |- server.js
       |- sample-data.js
