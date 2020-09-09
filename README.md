@@ -29,17 +29,17 @@ The app is structured in the following folder format:
 
     project_root
     	|- app
-    		|- config
-    		|- lib
-    		|- routes
-    	|- docs
-      	|- apis
-				|- app
-     |- gulpfile.js
-     |- server.js
-     |- sample-data.js
-     |- package.json
-     |- README.md
+    	  |- config
+    	  |- lib
+    	  |- routes
+      |- docs
+        |- apis
+			  |- app
+      |- gulpfile.js
+      |- server.js
+      |- sample-data.js
+      |- package.json
+      |- README.md
 
 
 ## Application Architecture
