@@ -5,7 +5,7 @@ The API is going to feed the front end application called This will depend on th
 The core of the application is the _server.js_ file. This file instantiates the server and bootstraps the application.
 
 ## Setting up data file
-To do local test you need to set up local file under project root. file name is alldata.csv
+To do local test you need to set up local file under project root. file name is sample-data.csv. The data is just sample data and can be replaced with complete data.
 
 ## Running the local server
 **This project proposed node > 13.7.0, so make sure you use versions greater than that**
