@@ -8,7 +8,7 @@ The core of the application is the _server.js_ file. This file instantiates the 
 To do local test you need to set up local file under project root. file name is alldata.csv
 
 ## Running the local server
-**This project proposed node > 10.x.x, so make sure you use versions greater than that**
+**This project proposed node > 13.7.0, so make sure you use versions greater than that**
 
 After installing all the dependencies, run the script
     npm start
