@@ -5,6 +5,7 @@ var routes = require('./app/routes/index');
 
 const server = restify.createServer();
 server.use(restify.plugins.bodyParser());
+const port = 8081;
 
 // initial server
 routes.init(server);
@@ -45,8 +46,8 @@ server.on('error', function (request, response, error) {
   });
 });
 
-server.listen(process.env.PORT, () => {
-  console.log('Listening on: ' + process.env.PORT);
+server.listen(port, () => {
+  console.log('Listening on: ' + port);
   console.log('Current environment: ' + config.environment);
 });
 
