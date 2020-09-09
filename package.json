@@ -1,0 +1,49 @@
+{
+  "name": "node_api",
+  "version": "1.0.0",
+  "description": "Chromatix Node Data Processing Test",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "docs:api": "npx apidoc -i ./ -e node_modules -o ./docs/apis"
+  },
+  "private": true,
+  "engines": {
+    "node": "13.7.0",
+    "npm": "^6.13.6"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "bunyan": "^1.8.14",
+    "csv": "^5.3.2",
+    "csv-parser": "^2.3.3",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "extend": "^3.0.2",
+    "fs": "0.0.1-security",
+    "gulp": "^4.0.2",
+    "highland": "^2.13.5",
+    "lodash": "^4.17.20",
+    "path": "^0.12.7",
+    "path-dirname": "^1.0.2",
+    "promise": "^8.1.0",
+    "querystring": "^0.2.0",
+    "request": "^2.88.2",
+    "restify": "^8.5.1",
+    "restify-cors-middleware": "^1.1.1",
+    "restify-errors": "^8.0.2",
+    "restify-jwt-community": "^1.1.4",
+    "restify-router": "^0.6.1"
+  },
+  "devDependencies": {
+    "apidoc": "^0.25.0",
+    "gulp": "^4.0.2",
+    "gulp-jsdoc3": "^3.0.0",
+    "jsdoc": "^3.6.5",
+    "nodemon": "^2.0.4"
+  }
+}
