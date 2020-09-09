@@ -4,7 +4,7 @@ const fs = require('fs'),
   hl = require('highland');
 
 // read as strean
-const stream = fs.createReadStream('data.csv').pipe(csvParser());
+const stream = fs.createReadStream('sample-data.csv').pipe(csvParser());
 const header = {
   TR: 'Total Revenue',
   TC: 'Total Cost',
