@@ -20,7 +20,7 @@ var config = {
     https: environment === 'dev' ? false : true,
     debug: process.env.DEBUG || environment.toLowerCase() === 'dev',
     server: {
-        port: process.env.C360_PORT || process.env.PORT || 8081,
+        port: process.env.C360_PORT || process.env.PORT || 5004,
         host: '',
         logPath: __dirname + '/../logs', //the bunyan log dir
         logLevel: environment === 'dev' ? 'info' : 'error', //log level
