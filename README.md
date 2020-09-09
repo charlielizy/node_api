@@ -28,13 +28,13 @@ You must also generate docs as new codes are added and commit them with code. To
 The app is structured in the following folder format:
 
     project_root
-     |- app
-    	|- config
-    	|- lib
-    	|- routes
-     |- docs
-        |- apis
-	|- app
+    	|- app
+    		|- config
+    		|- lib
+    		|- routes
+    	|- docs
+      	|- apis
+				|- app
      |- gulpfile.js
      |- server.js
      |- sample-data.js
